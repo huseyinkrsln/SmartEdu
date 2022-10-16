@@ -26,7 +26,10 @@
             <li class="nav-item <%= page_name === "about" && 'active' %>">
               <a class="nav-link"  href="/about">About Us</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item <%= page_name === "courses" && 'active' %>">
+              <a class="nav-link"  href="/courses">Course</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -35,7 +38,7 @@
                 >Course
               </a>
               <div class="dropdown-menu" aria-labelledby="dropdown-a">
-                <a class="dropdown-item" href="course-grid-2.html"
+                <a class="dropdown-item" href="/courses"
                   >Course Grid 2
                 </a>
                 <a class="dropdown-item" href="course-grid-3.html"
@@ -45,7 +48,7 @@
                   >Course Grid 4
                 </a>
               </div>
-            </li>
+            </li> -->
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
