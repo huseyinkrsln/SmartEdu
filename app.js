@@ -60,7 +60,9 @@ app.use("/courses", courseRoute);
 app.use("/categories", categoryRoute);
 app.use("/users", userRoute);
 
-const port = 3000;
-app.listen(port, () => {
-  console.log(`App started port on ${port}`);
-});
+// const port = 3000;
+//port  will change for heroku 
+const port = process.env.PORT || 5000;
+ app.listen(port, () => {
+   console.log(`App started port on ${port}`);
+ });

@@ -4,8 +4,8 @@
   "description": "Education Portal",
   "main": "app.js",
   "type": "module",
-  "scripts": {
-    "start": "nodemon app.js"
+  "scripts": {    
+    "start": "node app.js"
   },
   "keywords": [
     "education",
