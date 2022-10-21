@@ -13,9 +13,14 @@ import userRoute from "./routes/userRoute.js";
 const app = express();
 
 //DB Connect
-mongoose.connect("mongodb://127.0.0.1:27017/smartedudb").then(() => {
-  console.log("Db connected Succesfuly");
+// mongoose.connect("mongodb://127.0.0.1:27017/smartedudb").then(() => {
+//   console.log("Db connected Succesfuly");
+// });
+//Db Connection changed for heroku
+mongoose.connect("mongodb+srv://dbUser:bY47dQ13FHN9QJX2@cluster0.gyvo5qy.mongodb.net/smartedu-db?retryWrites=true&w=majority").then(() => {
+  console.log("Db connected Successfully");
 });
+
 
 //Template engine
 app.set("view engine", "ejs");
