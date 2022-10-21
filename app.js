@@ -17,7 +17,7 @@ const app = express();
 //   console.log("Db connected Succesfuly");
 // });
 //Db Connection changed for heroku
-mongoose.connect("mongodb+srv://dbUser:bY47dQ13FHN9QJX2@cluster0.gyvo5qy.mongodb.net/smartedu-db?retryWrites=true&w=majority").then(() => {
+mongoose.connect("mongodb+srv://dbUser:bY47dQ13FHN9QJX2@cluster0.gyvo5qy.mongodb.net/smartedu-db?retryWrites=true").then(() => {
   console.log("Db connected Successfully");
 });
 
