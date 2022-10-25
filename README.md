@@ -1,6 +1,6 @@
 ﻿# SmartEdu 
  ```
- Note : This project is a tutorial for Node.js. And it will be destroy after 3 month
+ Note : This project is a tutorial for Node.js. And it will be destroyed after 3 month
  ```
  
 ### -This project made by Node.js(Express js)
