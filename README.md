@@ -1,4 +1,5 @@
 ﻿# SmartEdu 
+ Eğitim amaçlı oluşturulmuş çalışmadır
  ```
  Note : This project is a tutorial for Node.js. And it will be destroyed after 3 month
  ```
